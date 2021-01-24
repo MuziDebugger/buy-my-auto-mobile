@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Buy My Automobile - Home</title>
+ 
+
+	<link rel="stylesheet" href="../static/css/blog.css" th:href="@{/css/blog.css}"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+		
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />	
+	<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css' />
+	
+
+</head>
+<body>
+
+
+	<div class="container">
+  		 
+		<nav class="navbar navbar-default">
+		    <div class="container-fluid">
+		        <div class="navbar-header">
+		            <a class="navbar-brand" href="/">buymyautomobile.com</a>
+		        </div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav">
+				        <li class="active"><a href="/">Home</a></li>
+				        <li class="dropdown">
+				        
+				        
+				        
+				        
+				        
+				        <!-- This section requires thorough attention -->
+				        
+				        
+				            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OurCars <span class="caret"></span></a>
+				            <ul class="dropdown-menu">
+				                <li><a href="/ourCars/list">List</a></li>
+				            </ul>
+				        </li>
+				        
+				        <!-- This section requires thorough attention -->
+				        
+				        <li class="dropdown">
+				            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+				            <ul class="dropdown-menu">
+				                <li><a href="/sellers/list">List</a></li>
+				            </ul>
+				        </li>				        
+				    </ul>
+				    <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Guest User</a></p>
+				</div>
+		    </div>
+		</nav>
+		
+				<div layout:fragment="content">
+		
+		<div class="row">
+			<div class="col-md-12">
+ 				<p>A little birdy told us that you were looking for a ride. Let Buy Auto Mobile help you find one </p>
+ 				
+ 				<div class = "row">
+ 				<div class = "col">
+ 				<img alt = "Cars" src = "../../static/images/rs4.jpg">
+ 				</div>
+				<!--  
+				width="1000" th:src="@{images/pirate.jpg}"/>
+				
+				Insert a car image here
+
+				create hyperlinks with images for user to click and browse a certain range
+				
+				
+				<p>Buy My Automobile is where car enthusiasts meet sellers for cars that they are looking </p>
+				<p>for and we know that you've been looking for your dream car.</p>
+				<p> You have come to the right place look no further than Buy My Auto Mobile!</p> -->
+			</div>
+		</div>
+		
+		
+		
+		<footer>
+			<p>Copyright © Buy My AutoMobile 2021</p>
+		</footer>
+	
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+</body>
+</html>
